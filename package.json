@@ -1,0 +1,17 @@
+{
+  "name": "com.everphone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/stepDefinitions/"
+  },
+  "scripts": {},
+  "author": "Sheetal",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.5.4",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-xpath": "^1.6.2"
+  }
+}
